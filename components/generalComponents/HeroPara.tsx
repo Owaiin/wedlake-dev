@@ -14,7 +14,10 @@ export default function HeroPara() {
           </RoughNotation>{" "}
           I've always been a{" "}
           <RoughNotation type="highlight" padding={1} color="#a7f3d0" order={3}>
-            problem solver
+            problem
+          </RoughNotation>{" "}
+          <RoughNotation type="highlight" padding={1} color="#a7f3d0" order={3}>
+            solver
           </RoughNotation>{" "}
           so I've spent most of my time finding little workarounds for real life
           issues... Like finding which streaming platform the obscure film my
