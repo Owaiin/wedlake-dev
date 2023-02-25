@@ -16,11 +16,8 @@ export default function HeroPara() {
           <RoughNotation type="highlight" padding={1} color="#a7f3d0" order={3}>
             problem solver
           </RoughNotation>{" "}
-          so I've spent most of my time finding little workarounds for{" "}
-          <RoughNotation type="highlight" color="#dbeafe" padding={1} order={4}>
-            real life issues
-          </RoughNotation>{" "}
-          ... Like finding which streaming platform the obscure film my
+          so I've spent most of my time finding little workarounds for real life
+          issues... Like finding which streaming platform the obscure film my
           girlfriend wants to watch is on!🍿
           <br />
           <RoughNotation padding={10} type="circle" color="#3b82f6">

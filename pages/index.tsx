@@ -43,9 +43,9 @@ export default function Home() {
       </Head>
       <div className=" bg-stone-100 min-h-screen pb-2 scroll-smooth">
         <Navbar />
-        <header className="mb-40">
+        <header className="mb-10">
           <Container>
-            <div className="grid lg:grid-cols-2 gap-5 h-full pt-40">
+            <div className="grid lg:grid-cols-2 gap-5 h-full pt-32 lg:pt-40">
               <div className="h-full flex flex-col justify-center">
                 <H1 text="Frontend Development with a passion for web." />
 
