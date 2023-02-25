@@ -48,7 +48,6 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-5 h-full pt-32 lg:pt-40">
               <div className="h-full flex flex-col justify-center">
                 <H1 text="Frontend Development with a passion for web." />
-
                 <HeroPara />
 
                 <div>
@@ -75,41 +74,41 @@ export default function Home() {
           <section className="my-20">
             <Container>
               <H2 text="Tech" />
-              <div className="grid grid-cols-3 gap-10 text-sm font-brand  text-neutral-700 mt-10 ">
+              <div className="grid grid-cols-3 gap-10 text-sm font-brand  text-neutral-700 mt-10  ">
                 <div className="flex flex-col items-center">
-                  <RiHtml5Fill className="text-6xl mb-3" />
+                  <RiHtml5Fill className="text-6xl mb-3 hover:text-htmlRed hover:scale-110 transition-all duration-150 ease-out" />
                   <p>HTML</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <RiCss3Fill className="text-6xl mb-3" />
+                  <RiCss3Fill className="text-6xl mb-3 hover:text-cssBlue hover:scale-110 transition-all duration-150 ease-out" />
                   <p>CSS</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <SiJavascript className="text-6xl mb-3" />
+                  <SiJavascript className="text-6xl mb-3 hover:text-jsYellow hover:bg-black hover:scale-110 transition-all duration-150 linear" />
                   <p>JavaScript</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <SiTypescript className="text-6xl mb-3" />
+                  <SiTypescript className="text-6xl mb-3 hover:text-tsBlue hover:scale-110 transition-all duration-150 ease-out" />
                   <p>TypeScript</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <RiReactjsFill className="text-6xl mb-3" />
+                  <RiReactjsFill className="text-6xl mb-3 hover:text-reactBlue hover:scale-110 transition-all duration-150 ease-out" />
                   <p>React</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <SiNextdotjs className="text-6xl mb-3" />
+                  <SiNextdotjs className="text-6xl mb-3 hover:text-black hover:scale-110 transition-all duration-150 ease-out" />
                   <p>NextJS</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <SiTailwindcss className="text-6xl mb-3" />
+                  <SiTailwindcss className="text-6xl mb-3 hover:text-cyan-500 hover:scale-110 transition-all duration-150 ease-out" />
                   <p>Tailwind</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <SiFirebase className="text-6xl mb-3" />
+                  <SiFirebase className="text-6xl mb-3 hover:text-firebaseYellow hover:scale-110 transition-all duration-150 ease-out" />
                   <p>Firebase</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <SiNetlify className="text-6xl mb-3" />
+                  <SiNetlify className="text-6xl mb-3 hover:text-netlifyGreen hover:scale-110 transition-all duration-150 ease-out" />
                   <p>Netlify</p>
                 </div>
               </div>
