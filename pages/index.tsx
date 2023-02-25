@@ -20,6 +20,7 @@ import {
   SiTypescript,
   SiTailwindcss,
   SiFirebase,
+  SiNetlify,
 } from "react-icons/si";
 import Navbar from "@/components/generalComponents/NavBar";
 
@@ -38,7 +39,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <body className=" bg-stone-100 min-h-screen pb-2 scroll-smooth">
+      <div className=" bg-stone-100 min-h-screen pb-2 scroll-smooth">
         <Navbar />
         <header className="mb-40">
           <Container>
@@ -106,6 +107,10 @@ export default function Home() {
                   <SiFirebase className="text-6xl mb-3" />
                   <p>Firebase</p>
                 </div>
+                <div className="flex flex-col items-center">
+                  <SiNetlify className="text-6xl mb-3" />
+                  <p>Netlify</p>
+                </div>
               </div>
             </Container>
           </section>
@@ -131,7 +136,7 @@ export default function Home() {
           </section>
         </main>
         <Footer />
-      </body>
+      </div>
     </>
   );
 }
