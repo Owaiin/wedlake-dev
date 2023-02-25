@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Container from "@/components/generalComponents/Container";
@@ -23,6 +24,7 @@ import {
   SiNetlify,
 } from "react-icons/si";
 import Navbar from "@/components/generalComponents/NavBar";
+import HeroPara from "@/components/generalComponents/HeroPara";
 
 export default function Home() {
   const openInNewTab = (url: string) => {
@@ -46,10 +48,9 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-5 h-full pt-40">
               <div className="h-full flex flex-col justify-center">
                 <H1 text="Frontend Development with a passion for web." />
-                <P
-                  text="Hey I'm Owain, a budding developer that loves the Frontend, especially working in ReactJS and NextJS ❤️
-              I've always been a problem solver so I've spent most of my time finding little workarounds for real life issues... Like finding which streaming platform the obscure film my girlfriend wants to watch is on!🍿"
-                />
+
+                <HeroPara />
+
                 <div>
                   <Button
                     onSmash={() => openInNewTab("https://github.com/Owaiin")}
