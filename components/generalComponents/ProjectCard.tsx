@@ -19,8 +19,9 @@ export default function ProjectCard(props: {
           <H3 text={props.title} />
           <P text={props.snippet} />
           <div>
-            <a target="_blank" href={props.liveLink}></a>
-            <Button text="Live Project" />
+            <a target="_blank" href={props.liveLink}>
+              <Button text="Live Project" />
+            </a>
 
             {props.caseStudyLink && (
               <Button
