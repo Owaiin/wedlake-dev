@@ -5,7 +5,13 @@ export default function HeroPara() {
       <p className=" text-neutral-500 font-brand leading-8">
         <RoughNotationGroup show={true}>
           Hey I'm Owain, a budding developer that loves the{" "}
-          <RoughNotation type="highlight" padding={1} color="#fef9c3" order={1}>
+          <RoughNotation
+            animationDelay={200}
+            type="highlight"
+            padding={1}
+            color="#fef9c3"
+            order={1}
+          >
             Frontend,
           </RoughNotation>{" "}
           especially working in ReactJS and{" "}
