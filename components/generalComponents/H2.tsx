@@ -1,4 +1,5 @@
 export default function H2(props: { text: string }) {
+  // forGit
   return (
     <>
       <h2 className="font-display mb-2 text-4xl text-neutral-700">
