@@ -2,7 +2,7 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 export default function HeroPara() {
   return (
     <>
-      <p className=" text-neutral-500 font-brand leading-8">
+      <p className=" text-neutral-700 font-brand leading-8">
         <RoughNotationGroup show={true}>
           Hey I'm Owain, a budding developer that loves the{" "}
           <RoughNotation

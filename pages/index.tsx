@@ -76,10 +76,10 @@ export default function Home() {
           <section className="my-20">
             <Container>
               <H2 text="Tech" />
-              <div className="grid grid-cols-3 gap-10 text-sm font-brand  text-neutral-700 mt-10  ">
+              <div className="grid grid-cols-3 gap-10 text-sm font-brand  text-neutral-700 mt-10 ">
                 <div className="flex flex-col items-center">
                   <RiHtml5Fill className="text-6xl mb-3 hover:text-htmlRed hover:scale-110 transition-all duration-150 ease-out" />
-                  <p>HTML</p>
+                  <p className="">HTML</p>
                 </div>
                 <div className="flex flex-col items-center">
                   <RiCss3Fill className="text-6xl mb-3 hover:text-cssBlue hover:scale-110 transition-all duration-150 ease-out" />
