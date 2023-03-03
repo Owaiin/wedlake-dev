@@ -25,6 +25,7 @@ import {
 } from "react-icons/si";
 import Navbar from "@/components/generalComponents/NavBar";
 import HeroPara from "@/components/generalComponents/HeroPara";
+import FindFlixImage from "@/public/images/FindFlixImg.png";
 
 export default function Home() {
   const openInNewTab = (url: string) => {
@@ -124,7 +125,7 @@ export default function Home() {
                 bgColor="bg-rose-50"
                 borderColor="border-rose-800"
                 liveLink="https://find-flix.netlify.app"
-                imageSrc="../public/images/FindFlixImg.png"
+                imageSrc="/../public/images/FindFlixImg.png"
                 imageStyle="absolute hidden lg:block lg:w-1/4 lg:top-10 lg:right-24 2xl:right-40 2xl:top-5 2xl:w-2/12"
               />
               <ProjectCard
@@ -133,7 +134,7 @@ export default function Home() {
                 bgColor="bg-blue-50"
                 borderColor="border-blue-500"
                 liveLink="https://instructional.netlify.app"
-                imageSrc="../public/images/laptopFrame.png"
+                imageSrc="/../public/images/laptopFrame.png"
                 imageStyle="absolute hidden lg:block lg:-right-32 lg:top-14 2xl:right-0 2xl:top-20"
               />
             </Container>

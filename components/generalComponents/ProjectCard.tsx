@@ -13,7 +13,7 @@ export default function ProjectCard(props: {
   bgColor: string;
   borderColor: string;
   imageAlt?: string;
-  imageSrc: string;
+  imageSrc: any;
   imageStyle?: string;
 }) {
   return (
@@ -39,7 +39,7 @@ export default function ProjectCard(props: {
           </div>
         </div>
         <Image
-          src={`${props.imageSrc}`}
+          src={props.imageSrc}
           width={500}
           height={500}
           alt={`${props.imageAlt}`}
