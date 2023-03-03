@@ -39,10 +39,10 @@ export default function ProjectCard(props: {
           </div>
         </div>
         <Image
-          src={`/${props.imageSrc}`}
+          src={`${props.imageSrc}`}
           width={500}
           height={500}
-          alt={`/${props.imageAlt}`}
+          alt={`${props.imageAlt}`}
           className={` ${props.imageStyle}`}
         />
       </div>
