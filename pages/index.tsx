@@ -27,6 +27,7 @@ import Navbar from "@/components/generalComponents/NavBar";
 import HeroPara from "@/components/generalComponents/HeroPara";
 import FindFlixImage from "@/public/images/FindFlixImg.png";
 import InstructionalImage from "@/public/images/laptopFrame.png";
+import ProfileImg from "@/public/images/ProfileImg.png";
 
 export default function Home() {
   const openInNewTab = (url: string) => {
@@ -68,6 +69,17 @@ export default function Home() {
                     customProps="ml-2"
                   />
                 </div>
+              </div>
+              <div className="flex items-center justify-center">
+                <Image
+                  src={ProfileImg}
+                  width={300}
+                  height={300}
+                  quality={100}
+                  priority
+                  alt="That's me, outside of the house. Crazy."
+                  className=""
+                />
               </div>
             </div>
           </Container>
