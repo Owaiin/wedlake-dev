@@ -25,7 +25,7 @@ export default function ProjectCard(props: {
   bgColor: string;
   borderColor: string;
   imageAlt?: string;
-  imageSrc: string;
+  imageSrc: any;
   imageStyle?: string;
   html?: boolean;
   css?: boolean;
