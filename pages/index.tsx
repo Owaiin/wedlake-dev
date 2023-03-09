@@ -28,6 +28,7 @@ import HeroPara from "@/components/generalComponents/HeroPara";
 import FindFlixImage from "@/public/images/FindFlixImg.png";
 import InstructionalImage from "@/public/images/laptopFrame.png";
 import ProfileImg from "@/public/images/ProfileImg.png";
+import ManageImage from "@/public/images/manageFrame.png";
 
 export default function Home() {
   const openInNewTab = (url: string) => {
@@ -77,7 +78,7 @@ export default function Home() {
                   height={300}
                   quality={100}
                   priority
-                  alt="That's me, outside of the house. Crazy."
+                  alt="Stylized portrait of Owain Wedlake"
                   className=""
                 />
               </div>
@@ -148,6 +149,15 @@ export default function Home() {
                 borderColor="border-blue-500"
                 liveLink="https://instructional.netlify.app"
                 imageSrc={InstructionalImage}
+                imageStyle="absolute hidden lg:block lg:-right-32 lg:top-14 2xl:right-0 2xl:top-20"
+              />
+              <ProjectCard
+                title="Manage Landing Page 📊"
+                snippet="A Frontend Mentor challenge to build a landing page from a design."
+                bgColor="bg-orange-50"
+                borderColor="border-orange-500"
+                liveLink="https://manage-landing-page-template.netlify.app/"
+                imageSrc={ManageImage}
                 imageStyle="absolute hidden lg:block lg:-right-32 lg:top-14 2xl:right-0 2xl:top-20"
               />
             </Container>
