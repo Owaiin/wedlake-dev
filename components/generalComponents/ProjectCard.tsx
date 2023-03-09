@@ -55,12 +55,12 @@ export default function ProjectCard(props: {
             {props.firebase && <SiFirebase />}
           </div>
           <P text={props.snippet} />
-          <div>
-            <a target="_blank" href={props.liveLink}>
-              <Button text="Live Project" />
+          <div className="flex flex-col md:flex-row">
+            <a target="_blank" href={props.gitHubLink}>
+              <Button text="GitHub" altButton={true} customProps="" />
             </a>
-            <a target="_blank" href={props.liveLink}>
-              <Button text="GitHub" altButton={true} customProps="md:ml-2" />
+            <a className="md:ml-2" target="_blank" href={props.liveLink}>
+              <Button text="Live Project" />
             </a>
           </div>
         </div>
