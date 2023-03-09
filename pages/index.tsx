@@ -134,29 +134,48 @@ export default function Home() {
             <Container>
               <H2 text="Projects" />
               <ProjectCard
-                title="Search, Select, Stream 📽️"
-                snippet="Find-Flix, a project to make searching across streaming platforms easy."
+                title="FindFlix 📽️"
+                html
+                css
+                javascript
+                react
+                nextjs
+                tailwind
+                snippet="FindFlix, a project to make searching across streaming platforms easy."
                 bgColor="bg-rose-50"
                 borderColor="border-rose-800"
+                gitHubLink="https://github.com/Owaiin/find-flix"
                 liveLink="https://find-flix.netlify.app"
                 imageSrc={FindFlixImage}
                 imageStyle="absolute hidden lg:block lg:w-1/4 lg:top-10 lg:right-24 2xl:right-40 2xl:top-5 2xl:w-2/12"
               />
               <ProjectCard
-                title="Nice and Easy 🧑‍🏫"
-                snippet="Instructional is a platform for creating clear, consice, & clean, guides and tutorials"
+                title="Instructional 🧑‍🏫"
+                html
+                css
+                typescript
+                react
+                nextjs
+                tailwind
+                firebase
+                snippet="Instructional is a platform for creating clear, consice, & clean, guides and tutorials. Includes Auth, User Profiles, and SSR + SSG."
                 bgColor="bg-blue-50"
                 borderColor="border-blue-500"
+                gitHubLink="https://github.com/Owaiin/instructional"
                 liveLink="https://instructional.netlify.app"
                 imageSrc={InstructionalImage}
                 imageStyle="absolute hidden lg:block lg:-right-32 lg:top-14 2xl:right-0 2xl:top-20"
               />
               <ProjectCard
                 title="Manage Landing Page 📊"
+                html
+                css
+                javascript
                 snippet="A Frontend Mentor challenge to build a landing page from a design."
                 bgColor="bg-orange-50"
                 borderColor="border-orange-500"
                 liveLink="https://manage-landing-page-template.netlify.app/"
+                gitHubLink="https://github.com/Owaiin/manage-product-landing-page"
                 imageSrc={ManageImage}
                 imageStyle="absolute hidden lg:block lg:-right-32 lg:top-14 2xl:right-0 2xl:top-20"
               />

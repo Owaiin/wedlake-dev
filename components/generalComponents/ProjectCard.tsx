@@ -2,19 +2,39 @@ import H3 from "./H3";
 import P from "./P";
 import Button from "./Button";
 import Image from "next/image";
-import { StringLiteral } from "typescript";
-import { SERVER_PROPS_ID } from "next/dist/shared/lib/constants";
+import {
+  RiGithubFill,
+  RiHtml5Fill,
+  RiCss3Fill,
+  RiReactjsFill,
+} from "react-icons/ri";
+import {
+  SiNextdotjs,
+  SiJavascript,
+  SiTypescript,
+  SiTailwindcss,
+  SiFirebase,
+  SiNetlify,
+} from "react-icons/si";
 
 export default function ProjectCard(props: {
   title: string;
   snippet: string;
-  caseStudyLink?: any;
+  gitHubLink?: string;
   liveLink?: string;
   bgColor: string;
   borderColor: string;
   imageAlt?: string;
-  imageSrc: any;
+  imageSrc: string;
   imageStyle?: string;
+  html?: boolean;
+  css?: boolean;
+  javascript?: boolean;
+  react?: boolean;
+  nextjs?: boolean;
+  typescript?: boolean;
+  tailwind?: boolean;
+  firebase?: boolean;
 }) {
   return (
     <>
@@ -23,19 +43,25 @@ export default function ProjectCard(props: {
       >
         <div className="lg:w-1/2 h-full">
           <H3 text={props.title} />
+          <div className="grid grid-cols-12 gap-8 text-lg text-neutral-800 my-3">
+            {props.html && <RiHtml5Fill />}
+            {props.css && <RiCss3Fill />}
+            {props.javascript && <SiJavascript />}
+            {props.typescript && <SiTypescript />}
+            {props.react && <RiReactjsFill />}
+            {props.nextjs && <SiNextdotjs />}
+
+            {props.tailwind && <SiTailwindcss />}
+            {props.firebase && <SiFirebase />}
+          </div>
           <P text={props.snippet} />
           <div>
             <a target="_blank" href={props.liveLink}>
               <Button text="Live Project" />
             </a>
-
-            {props.caseStudyLink && (
-              <Button
-                text="View case study"
-                altButton={true}
-                customProps="lg:ml-2"
-              />
-            )}
+            <a target="_blank" href={props.liveLink}>
+              <Button text="GitHub" altButton={true} customProps="md:ml-2" />
+            </a>
           </div>
         </div>
         <Image
