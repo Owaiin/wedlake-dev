@@ -29,6 +29,7 @@ import FindFlixImage from "@/public/images/FindFlixImg.png";
 import InstructionalImage from "@/public/images/laptopFrame.png";
 import ProfileImg from "@/public/images/ProfileImg.png";
 import ManageImage from "@/public/images/manageFrame.png";
+import PhotoSnapImage from "@/public/images/PhotoSnap.png";
 
 export default function Home() {
   const openInNewTab = (url: string) => {
@@ -133,6 +134,19 @@ export default function Home() {
           <section className="my-20">
             <Container>
               <H2 text="Projects" />
+              <ProjectCard
+                title="Photosnap 📸"
+                react
+                typescript
+                tailwind
+                snippet="A Frontend Mentor challenge built in React, with Typescript and Tailwind, using Vite."
+                bgColor="bg-white"
+                borderColor="border-black"
+                liveLink="https://photosnap-vite-react-tailwind.netlify.app/"
+                gitHubLink="https://github.com/Owaiin/photoSnap"
+                imageSrc={PhotoSnapImage}
+                imageStyle="absolute hidden lg:block lg:-right-32 lg:top-14 2xl:right-0 2xl:top-20"
+              />
               <ProjectCard
                 title="FindFlix 📽️"
                 html
